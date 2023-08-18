@@ -47,7 +47,7 @@
     }
 
     $a = 10;
-
+    
     if(is_int($a)) { // true
         echo "É um inteiro 3 <br>";
     }

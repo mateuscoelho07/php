@@ -16,6 +16,7 @@
     <!-- Código PHP para tipos de string -->
     <?php
 
+
         echo "Testando texto de aspas duplas <br>";
         echo 'Testando texto de aspas simples <br>';
         echo "<br><<p>Para exibir uma aspas, inicie a string com a outra.</p>";
@@ -23,22 +24,27 @@
         echo 'Ele disse: "Olá" <br>';
     
         echo "<br><p>O valor é passado para a variável e depois recuperado na string.</p>";
-        
+        $idade = 15;
 
+        echo "Ele tem $idade anos <br>";
+        echo 'Ele tem $idade anos';
+    ?>    
+    <!-- Codigo para verificar strings -->
+    <?php
 
+        $str = "SENAI";
+        $num = 118;
 
+        if(is_string($str)) {
+            echo"$str é uma string 1<br>";
+        }
+        if(is_string($num)) {
+            echo"$num é uma string 2<br>";
+        }
+        if(is_string("asd")) {
+            echo"É uma string 3<br>";
+        }
+    ?>
 
-
-
-
-
-
-
-    <br><hr>
-    <h2>Função de verificação</h2>
-    <p>Para saber se uma variável é string usamos a função is_string()</p>
-
-    <!-- Código PHP para verificar strings -->
-   
 </body>
 </html>
